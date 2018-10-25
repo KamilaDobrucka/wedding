@@ -2,78 +2,58 @@ p
     text-align: center
     color: navycolor
 
-section
-    padding-top: 40px
-
 #banner
-    height: 600px
+    height: 850px
     margin-top: 188px
-    background-image: url(obrazki/589.jpg)
+    background-image: url(obrazki/zaproszenie.jpg)
     background-size: cover
     background-repeat: no-repeat
     background-position: center
     background-attachment: fixed
-    opacity: 0.8
     h1
-        color: navycolor
+        color: white
         font-size: 72px
         font-weight: bold
         text-align: center
-        padding-top: 100px
+        padding-top: 140px
         &::after
             content:""
             display: block
-            background-color: navycolor
+            background-color: white
             width: 200px
             height: 2px
             margin: 20px auto
             
 .description
-    color: navycolor
+    color: white
     font-size: 24px
     font-weight: bold
     text-align: center
     text-transform: uppercase
-    
+
 .poem
     color: navycolor
-    font-size: 40px
+    font-size: 30px
     line-height: 80px
     font-weight: bold
     text-align: center
     padding: 100px 0
 
-
 #main
-    background-color: bluecolor 
-
-// #map
-//     background-image: url(obrazki/mapa.png)
-//     background-size: cover
-//     background-repeat: no-repeat
-//     background-position: center
-//     position: relative
-
-#banner2
-    height: 600px
-    background-image: url(obrazki/gdynia1.jpg)
-    background-size: cover
-    background-repeat: no-repeat
-    background-position: center
-    opacity: 0.6
-    .ourphoto
-        color: navycolor
-        font-size: 50px
-        line-height: auto
-        font-weight: bold
-        text-align: center
-        padding-top: 200px
+    background-color: bluecolor
+    .aboutwedding
+        padding-bottom: 100px
+        font-size: 20px
+        line-height: 40px
+        margin-bottom: 0
+        .gruby
+            font-weight: 700
         
 #presence 
-    background-color: navycolor
+    background-color: bluecolor
     .please 
-        color: bluecolor 
-        font-size: 30 px
+        color: navycolor 
+        font-size: 24px
         text-align: center
         margin-bottom: 40px
     .containerdata
@@ -85,13 +65,13 @@ section
             flex-direction: column
             justify-content: center
             align-items: center
-            h3 
-                color: bluecolor
-                font-size: 30px
+            .imienazw 
+                color: navycolor
+                font-size: 24px
                 text-align: center
             .number
-                color: bluecolor
-                font-size: 25px
+                color: navycolor
+                font-size: 20px
                 text-align: center
             .facebook
                 height: 50px
@@ -100,10 +80,9 @@ section
 h2
     color: navycolor
     font-size: 36px
-    line-height: auto
     font-weight: bold
     text-align: center
-    padding-top: 30px
+    padding-top: 100px
     &::after
         content: ""
         display: block
@@ -112,22 +91,32 @@ h2
         height: 2px
         margin: 20px auto
 
-#white 
-    color: bluecolor
-    font-size: 36px
-    line-height: auto
-    font-weight: bold
-    text-align: center
-    padding-top: 30px
-    &::after
-        content: ""
-        display: block
-        background-color: bluecolor
-        width: 90px
-        height: 2px
-        margin: 20px auto 80px
-    
-.aim::before
+#banner2
+    height: 700px
+    background-image: url(obrazki/enga.JPG)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    opacity: 0.5
+    .ourphoto
+        color: navycolor
+        font-size: 60px
+        font-weight: bold
+        text-align: center
+        padding-top: 350px
+
+#stopka
+    background-color: navycolor
+    .heartscontainer
+        display: flex
+        justify-content: center
+        align-content: center
+        img
+            width: 50px
+            height: 50px
+
+
+.aim2::before
     content: "";
     display: block;
     height: 188px; /* fixed header height*/
@@ -139,78 +128,8 @@ h2
     height: 288px; /* fixed header height*/
     margin: -288px 0 0; /* negative fixed header height */
 
-#map 
-    padding-top: 0
+#informacje
+    height: 0px
+    opacity: 0
     position: relative
-    .zbiormap
-        display: flex
-        flex-direction: row
-        height: 100%
-        width: 100%
-        padding: 50px 0 100px
-        .plaza, .restauracja
-            width: 50%
-            height: 600px
-            padding: 50px
-    iframe
-        width: 100%
-        height: 100%
-    // &::before
-    //     position: absolute
-    //     content: ""
-    //     display: block
-    //     width: 50%
-    //     height: 10px
-    //     background-color: navycolor
-    //     top: 0
-    //     left: 0
-    // &::after
-    //     position: absolute
-    //     content: ""
-    //     display: block
-    //     width: 50%
-    //     height: 10px
-    //     background-color: bluecolor
-    //     bottom: 0
-    //     right: 0
-
-.zbiormap
-    h3 
-        color: navycolor
-        font-size: 30px
-        text-align: center 
-
-.aboutwedding
-    padding-bottom: 100px
-    font-size: 20px
-    line-height: 40px
-    margin-bottom: 0
-
-
-.trojkatcontainer
-    display:flex
-    justify-content: center
-    .trojkat
-        width: 0
-        height: 0
-        border-left: 30px solid transparent
-        border-right: 30px solid transparent
-        border-bottom: 40px solid bluecolor
-        transform: rotate(180deg)
-
-.gruby
-    font-weight: 700
-
-#stopka 
-    background-color: navycolor
-
-#stopka
-    padding-top: 0
-    .heartscontainer
-        display: flex
-        justify-content: center
-        align-content: center
-        img
-            width: 50px
-            height: 50px
-    
+    bottom: 188px
